@@ -111,3 +111,6 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.zsh_aliases
+
+# For any other custom additions
+source ~/.profile
