@@ -8,4 +8,6 @@
 # for ssh logins, install and configure the libpam-umask package.
 #umask 022
 
-eval "$(~/.rbenv/bin/rbenv init - zsh)"
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init - zsh)"

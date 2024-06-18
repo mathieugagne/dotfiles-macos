@@ -4,7 +4,7 @@
 	username = mathieugagne
 
 [core]
-  pager = delta
+	pager = less -FX
 [alias]
   purge = !ppurge
   current-branch = !git rev-parse --abbrev-ref HEAD
@@ -12,6 +12,7 @@
   pager = delta
 [pager]
   branch = false
+	log = true
 [pull]
 	rebase = true
 [fetch]
@@ -20,9 +21,5 @@
 	colorMoved = zebra
 [merge]
   conflictstyle = diff3
-[interactive]
-  diffFilter = delta --color-only
-[delta]
-  line-numbers = true
-  navigate = true  # use n and N to move between diff sections
-  side-by-side = true
+[http]
+	sslVerify = false
